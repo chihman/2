@@ -1,7 +1,0 @@
-C:\Users\pro-5\Desktop\Chihman\лабораторная 1\задание 1\bin\Debug\задание 1.exe.config
-C:\Users\pro-5\Desktop\Chihman\лабораторная 1\задание 1\bin\Debug\задание 1.exe
-C:\Users\pro-5\Desktop\Chihman\лабораторная 1\задание 1\bin\Debug\задание 1.pdb
-C:\Users\pro-5\Desktop\Chihman\лабораторная 1\задание 1\obj\Debug\задание 1.csprojResolveAssemblyReference.cache
-C:\Users\pro-5\Desktop\Chihman\лабораторная 1\задание 1\obj\Debug\задание 1.csproj.CoreCompileInputs.cache
-C:\Users\pro-5\Desktop\Chihman\лабораторная 1\задание 1\obj\Debug\задание 1.exe
-C:\Users\pro-5\Desktop\Chihman\лабораторная 1\задание 1\obj\Debug\задание 1.pdb

@@ -1,6 +1,0 @@
-C:\Users\pro-5\Desktop\Chihman\лабораторная 1\задание 4\bin\Debug\задание 4.exe.config
-C:\Users\pro-5\Desktop\Chihman\лабораторная 1\задание 4\bin\Debug\задание 4.exe
-C:\Users\pro-5\Desktop\Chihman\лабораторная 1\задание 4\bin\Debug\задание 4.pdb
-C:\Users\pro-5\Desktop\Chihman\лабораторная 1\задание 4\obj\Debug\задание 4.csproj.CoreCompileInputs.cache
-C:\Users\pro-5\Desktop\Chihman\лабораторная 1\задание 4\obj\Debug\задание 4.exe
-C:\Users\pro-5\Desktop\Chihman\лабораторная 1\задание 4\obj\Debug\задание 4.pdb

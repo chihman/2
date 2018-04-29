@@ -1,6 +1,0 @@
-C:\Users\pro-5\Desktop\Chihman\лабораторная 1\Задание3\bin\Debug\Задание3.exe.config
-C:\Users\pro-5\Desktop\Chihman\лабораторная 1\Задание3\bin\Debug\Задание3.exe
-C:\Users\pro-5\Desktop\Chihman\лабораторная 1\Задание3\bin\Debug\Задание3.pdb
-C:\Users\pro-5\Desktop\Chihman\лабораторная 1\Задание3\obj\Debug\Задание3.csproj.CoreCompileInputs.cache
-C:\Users\pro-5\Desktop\Chihman\лабораторная 1\Задание3\obj\Debug\Задание3.exe
-C:\Users\pro-5\Desktop\Chihman\лабораторная 1\Задание3\obj\Debug\Задание3.pdb
