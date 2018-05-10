@@ -1,6 +1,8 @@
 
 package Objects;
+
 import main.*;
+
 public class Snake {
 
     public int length = 2;//длинна змеи
@@ -16,14 +18,35 @@ public class Snake {
         sY[1] = y2;
     }
 
+    public void growthTail() { //После каждого поедание яблока создается новый хвост и в случае соответствия координат нового
+        // и предыдущего хвоста координата созданного хвоста не менятеся
+        length++;
+        sX[length - 1] = sX[length - 2];
+        sY[length - 1] = sY[length - 2];
+
+    }
+
     public void move() {//движение
-        for (int l = length; l > 0; l--) {//движение последующих клеток за головой
-            sX[1] = sX[l - 1];//присвоение предыдущего элемента
-            sY[1] = sY[l - 1];
+        int x = sX[length - 2], y = sY[length - 2];
+
+        for (int l = length - 1; l > 0; l--) {//движение последующих клеток за головой
+            int i = length - 2;
+            //up
+            if (length == 2) {
+                sX[1] = sX[0];
+                sY[1] = sY[0];
+                continue;
+            }
+
+            sX[i] = sX[i - 1];//присвоение предыдущего элемента
+            sY[i] = sY[i - 1];
+            if (length > 2 && sX[length - 1] != x && sY[length - 1] != y) {
+                sX[length - 1] = x;
+                sY[length - 1] = y;
+
+            }
+
         }
-
-
-        //up
         if (direction == 0) sY[0]--;//напрвление движение кнопки, изменение координаты
         //down
         if (direction == 2) sY[0]++;

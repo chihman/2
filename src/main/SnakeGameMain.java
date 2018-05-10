@@ -41,12 +41,13 @@ public class SnakeGameMain extends JPanel implements ActionListener {//окон�
         g.setColor(Color.red);//яблоко
         g.fillOval(apple.posX * SCALE + 4, apple.posY * SCALE + 4, SCALE - 8, SCALE - 8);
 
+        g.setColor(Color.WHITE);//голова
+        g.fillRect(s.sX[0] * SCALE + 1, s.sY[0] * SCALE + 1, SCALE - 1, SCALE - 1);
+
         for (int l = 1; l < s.length; l++) {//рисование змеи
             g.setColor(Color.green);//зеленого цвета
             g.fillRect(s.sX[l] * SCALE + 1, s.sY[l] * SCALE + 1, SCALE - 1, SCALE - 1);
 //рисование квадратика
-            g.setColor(Color.WHITE);//голова
-            g.fillRect(s.sX[0] * SCALE + 1, s.sY[0] * SCALE + 1, SCALE - 1, SCALE - 1);
 
 
         }
