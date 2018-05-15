@@ -30,7 +30,6 @@ public class Snake {
         int x = sX[length - 2], y = sY[length - 2];
 
         for (int l = length - 1; l > 0; l--) {//движение последующих клеток за головой
-            int i = length - 2;
             //up
             if (length == 2) {
                 sX[1] = sX[0];
@@ -38,8 +37,8 @@ public class Snake {
                 continue;
             }
 
-            sX[i] = sX[i - 1];//присвоение предыдущего элемента
-            sY[i] = sY[i - 1];
+            sX[l] = sX[l - 1];//присвоение предыдущего элемента
+            sY[l] = sY[l - 1];
             if (length > 2 && sX[length - 1] != x && sY[length - 1] != y) {
                 sX[length - 1] = x;
                 sY[length - 1] = y;

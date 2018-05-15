@@ -5,7 +5,7 @@ import org.junit.Test;
 
 public class Test1 {
     @Test
-    public void case1() {
+    public void GrowthTail() {
 
         Snake s = new Snake(0, 1, 0, 0);//001 создание обьекта
         s.growthTail();
@@ -18,7 +18,7 @@ public class Test1 {
         Assert.assertEquals(0, s.sY[2]);
     }
     @Test
-    public void case2() {
+    public void move() {
 
         Snake s = new Snake(0, 1, 0, 0);//001 создание обьекта
         s.move();
